@@ -1,5 +1,16 @@
-/**/
+/** /
 * {
-    border: 2px #ff0000
+    border: 1px solid #ff0000;
 }
 /**/
+
+/**/
+body {
+    background: #282630;
+    color: #88dd88;
+}
+/**/
+
+article {
+    
+}
