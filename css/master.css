@@ -6,11 +6,22 @@
 
 /**/
 body {
-    background: #282630;
-    color: #88dd88;
+    background: #181620;
+    color: #ccffcc;
 }
 /**/
 
-article {
-    
+/**/
+img {
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;
 }
+/**/
+
+/**/
+article {
+    display: flex;
+    justify-content: space-around;
+}
+/**/
