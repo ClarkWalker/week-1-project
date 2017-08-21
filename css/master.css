@@ -1,9 +1,22 @@
 /*Debugging*/
-/**/
+/** /
 * {
     border: 1px solid red;
 }
 /*Themeing*/
-/**//**/
+/**/
+main {
+    display: flex;
+    flex-flow: nowrap row;
+}
 
+/**//**/
+main img {
+    width: 630px;
+    height: 300px;
+    float: left;
+}
+main p {
+    float: right;
+}
 /**/
