@@ -6,7 +6,35 @@
 /*Themeing*/
 /**/
 header {
-    
+    background: #303030;
+}
+/**//**/
+header:first-child{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+/**//**/
+h1 {
+    margin: auto 40px;
+}
+/**//**/
+nav {
+    background: #202020;
+    display: flex;
+
+    margin: 10px 40px;
+    padding: 25px 25px;
+}
+/**//**/
+a {
+    display: flex;
+    justify-content: space-around;
+}
+/**//** /
+#title .finePrint {
+    display: flex;
+
 }
 /**//**/
 main {
