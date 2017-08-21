@@ -17,13 +17,14 @@ header:first-child {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
-
 }
+
 /**//**/
 h1 {
     margin: auto 40px;
     text-transform: capitalize;
 }
+
 /**//**/
 nav {
     background: #202020;
@@ -34,24 +35,12 @@ nav {
     padding: 20px 25px;
 }
 
-.title {
-    display: flex;
-    flex-direction: column;
-}
-
 nav a {
     font-size: 10;
     text-transform: uppercase;
     margin: 10px;
 }
-/**//** /
-.navigation {
-    justify-content: space-around;
-}
-/**//**/
-#finePrint {
-    flex-direction: column;
-}
+
 /**//**/
 main {
     display: flex;
@@ -59,30 +48,41 @@ main {
 }
 
 /**//**/
-main img {
+main article img {
     width: 630px;
     height: 300px;
-    margin: 10px 20px 20px 20px;
+    margin: 10px 40px 20px 20px;
     float: right;
     order: 1;
+}
+
+/**//**/
+main article p {
+    margin: 16px 40px 20px 40px;
+    text-align: justify;
+    font-size: 20px;
 }
 
 /**//**/
 section {
     display: flex;
     flex-flow: nowrap row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
 /**//**/
-article {
+section article {
     max-width: 300px;
     max-height: 200px;
+    margin: 00px 40px 00px 40px;
 }
+
 /**//**/
-article img {
+section article img {
     width: 80px;
     height: 80px;
-    margin: 10px 20px 20px 00px;
+    margin: 10px 20px 10px 00px;
     float: left;
 }
+
 /**/
